@@ -1,0 +1,25 @@
+.table {
+    width: 80%;
+    max-width: 300px;
+    border: 0.5px solid #6789837e;
+    border-top: none;
+    border-radius: 5px;  
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px; 
+    padding: 1rem 1.5rem; 
+    display: flex;
+    flex-direction: column;
+    gap : 0.5rem;
+}
+
+.hour {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    border-bottom: dotted 1px #181d3136;
+}
+
+.mins {
+    display: flex;
+    gap: 3px;
+}

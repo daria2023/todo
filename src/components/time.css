@@ -1,0 +1,30 @@
+.time {
+    width: 80%;
+    max-width: 300px;
+    background-color: #678983;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #F0E9D2;
+}
+
+.time:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
+.header,
+.sentence,
+.today {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.header {
+    letter-spacing: 0.1rem;
+}
+
+.today,
+.sentence {
+    padding: 0.1rem 0 0.5rem;
+    color: #E6DDC4;
+}
