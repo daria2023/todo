@@ -1,4 +1,4 @@
-import './app.css'
+import './App.css';
 import Table from './components/Table'
 import Time from './components/Time'
 
