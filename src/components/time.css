@@ -28,3 +28,20 @@
     padding: 0.1rem 0 0.5rem;
     color: #E6DDC4;
 }
+
+.today {
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.today button {
+    background-color: transparent;
+    border: none;
+    color: #E6DDC4;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 0 #7A7A7A, 2px 2px 1px rgba(230,221,196,0);
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
