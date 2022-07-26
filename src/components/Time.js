@@ -4,8 +4,12 @@ import html2canvas from 'html2canvas';
 const Time = () => {
     let today = new Date(Date.now());
     today = today.toDateString();
+    let rootDiv = document.querySelector('#root')
     const screenShot = ()=>{
-      html2canvas(document.body).then((canvas) => {
+      html2canvas(rootDiv,{
+        scrollX: 0,
+        scrollY: -window.scrollY
+    }).then((canvas) => {
         let a = document.createElement("a");
         a.download = `${today}.png`
         a.href = canvas.toDataURL("image/png");
